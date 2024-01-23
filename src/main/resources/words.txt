@@ -3648,7 +3648,6 @@ propitiate
 propitious
 proponent
 propound
-problem/theory
 propriety
 propulsive
 prosaic
@@ -4934,4 +4933,4 @@ zeal
 zealot
 zephyr
 zest
-Number of words: 4911
+Number of words: 4910

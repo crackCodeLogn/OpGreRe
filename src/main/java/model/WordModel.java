@@ -20,6 +20,6 @@ public class WordModel {
 
     @Override
     public String toString() {
-        return String.format("%s: %s, %d", word, wordMeaning, image.getImageLoadStatus());
+        return String.format("%s: %s, %d", word, wordMeaning.subList(0, Math.min(2, wordMeaning.size())), image.getImageLoadStatus());
     }
 }

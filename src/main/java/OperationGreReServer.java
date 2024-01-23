@@ -85,7 +85,7 @@ public class OperationGreReServer {
                 .collect(Collectors.toList());
 
         //transfer to UI this list
-        System.out.println(wordModels);
+        wordModels.forEach(wordModel -> LoggingHelper.info(wordModel.toString()));
         manageUi(wordModels, "GRE PRACTISE WORDS -- RANDOM VOCAB: " + wordsForPractice, localData);
     }
 
