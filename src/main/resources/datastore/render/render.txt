@@ -1,0 +1,31 @@
+TimeStamp --> 2024-01-23T14:13:59.901649695
+Number of entries --> 26
+
+to cause to be or become; make: to render someone helpless.
+to do; perform: to render a service.
+to furnish; provide: to render aid.
+to exhibit or show (obedience, attention, etc.).
+to present for consideration, approval, payment, action, etc., as an account.
+to return; to make (a payment in money, kind, or service) as by a tenant to a superior: knights rendering military service to the lord.
+to pay as due (a tax, tribute, etc.).
+to deliver formally or officially; hand down: to render a verdict.
+to translate into another language: to render French poems into English.
+to represent; depict, as in painting: to render a landscape.
+to represent (a perspective view of a projected building) in drawing or painting.
+to bring out the meaning of by performance or execution; interpret, as a part in a drama or a piece of music.
+Digital Technology.
+to use the processing power of computer hardware and software to synthesize (the components of an image or animation) in a final graphic output: I’m able to render the lighting in this scene much faster now, thanks to my new graphics card.
+to load (game assets) in a video game, displaying objects, textures, geometry, lighting, etc., on screen in their complete intended form: My laggy connection didn’t render the enemies until I was basically standing on top of them.The game is still playable even if the textures in the environment aren’t always rendered right.
+to give in return or requital: to render good for evil.
+to give back; restore (often followed by back).
+to send (a suspected criminal) abroad; subject to rendition.
+to give up; surrender.
+Building Trades. to cover (masonry) with a first coat of plaster.
+to melt down; extract the impurities from by melting: to render fat.
+to process, as for industrial use: to render livestock carcasses.
+to provide due reward.
+to separate oil from fat, blubber, etc., by melting.
+Digital Technology. (of assets in a video game) to load so they are visible to the player in their complete intended form: There is a long delay before the geometry renders when I change zones, so sometimes I find my character walking in place up against a wall when the world finally loads.
+Building Trades. a first coat of plaster for a masonry surface.
+-----------------------------------------
+

@@ -1,0 +1,17 @@
+TimeStamp --> 2024-01-23T14:28:49.059812791
+Number of entries --> 12
+
+a waterfall descending over a steep, rocky surface.
+a series of shallow or steplike waterfalls, either natural or artificial.
+anything that resembles a waterfall, especially in seeming to flow or fall in abundance: a cascade of roses covering the wall.
+(in a drain or sewer) a chain of steps for dissipating the momentum of falling water in a steep place in order to maintain a steady rate of flow.
+an arrangement of a lightweight fabric in folds falling one over another in random or zigzag fashion.
+a type of firework resembling a waterfall in effect.
+Chemistry. a series of vessels, from each of which a fluid successively overflows to the next, thus presenting a large absorbing surface, as to a gas.
+Electricity. an arrangement of component devices, as electrolytic cells, each of which feeds into the next in succession.
+Biochemistry. a series of reactions catalyzed by enzymes that are activated sequentially by successive products of the reactions, resulting in an amplification of the initial response.
+to fall in or like a cascade.
+to cause to fall in a cascade.
+Electricity. to arrange (components) in a cascade.
+-----------------------------------------
+

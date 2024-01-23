@@ -1,0 +1,17 @@
+TimeStamp --> 2024-01-23T14:17:53.929891608
+Number of entries --> 12
+
+to cause (an organism) to multiply by any process of natural reproduction from the parent stock.
+to reproduce (itself, its kind, etc.), as an organism does.
+to transmit (hereditary features or elements) to, or through, offspring.
+to spread (a report, doctrine, practice, etc.) from person to person; disseminate.
+to cause to increase in number or amount.
+to create (an effect) at a distance, as by electromagnetic waves, compression waves, etc., traveling through space or a physical medium; transmit: to propagate sound.
+to spread (a disease) from one individual to another: Dr. John Atlee believed believed that filthy living conditions probably propagated cholera.
+Computers. to cause (an update or other alteration) to take effect throughout a network of devices:The active master database replicates updates to the standby master database, which propagates the updates to the subscribers.
+to multiply by any process of natural reproduction, as organisms; breed.
+to increase in extent, as a structural flaw: The crack will propagate only to this joint.
+(of electromagnetic waves, compression waves, etc.) to travel through space or a physical medium.
+Computers. to take effect throughout a network of devices.
+-----------------------------------------
+

@@ -1,0 +1,13 @@
+TimeStamp --> 2024-01-23T14:17:03.720364665
+Number of entries --> 8
+
+to tend to meet in a point or line; incline toward each other, as lines that are not parallel.
+to tend to a common result, conclusion, etc.
+Mathematics.
+(of a sequence) to have values eventually arbitrarily close to some number; to have a finite limit.
+(of an infinite series) to have a finite sum; to have a sequence of partial sums that converges.
+(of an improper integral) to have a finite value.
+(of a net) to be residually in every neighborhood of some point.
+to cause to converge.
+-----------------------------------------
+

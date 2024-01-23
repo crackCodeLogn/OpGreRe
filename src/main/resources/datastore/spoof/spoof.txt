@@ -1,0 +1,12 @@
+TimeStamp --> 2024-01-23T14:35:34.046536503
+Number of entries --> 7
+
+a mocking imitation of someone or something, usually light and good-humored; lampoon or parody: The show was a spoof of college life.
+a hoax; prank.
+to mock (something or someone) lightly and good-humoredly; kid.
+to fool by a hoax; play a trick on, especially one intended to deceive.
+to trick (electronic devices, as radar), by interrupting or otherwise corrupting data in order to avoid detection.
+Digital Technology. to misrepresent (the identity of a party or the origin of data) in a communication, in order to misdirect digital authentication or other security measures: Hackers spoofed the IP to fool the network into providing access.Suspects spoofed caller ID when they phoned in the anonymous threats.The sender’s email address was spoofed to fool the company’s spam filters.: Compare phish.
+to scoff at something lightly and good-humoredly; kid: The campus paper was always spoofing about the regulations.
+-----------------------------------------
+

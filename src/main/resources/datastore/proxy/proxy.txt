@@ -1,0 +1,14 @@
+TimeStamp --> 2024-01-23T14:22:35.501330495
+Number of entries --> 9
+
+the agency, function, or power of a person authorized to act as the deputy or substitute for another.
+a person authorized to act as a deputy or substitute for another; agent.
+a written authorization empowering another person to vote or act for the signer, such as at a meeting of stockholders.
+an ally or confederate who can be relied upon to speak or act in one's behalf.
+Computer.
+a server or program that receives requests, filters them, and forwards them to a network on behalf of another computer or network which it represents under a surrogate IP address: used to provide anonymity or increased security or to carry out intermediate processing.
+a placeholder programming object whose function is to delegate the execution of an action to one or more other objects it controls access to, allowing the placeholder to carry out other processing before and after that action.
+relating to or having the agency, function, or power of a person authorized to act as the deputy or substitute for another: If you are unable to reach the polls, you can choose a proxy voter to cast your ballot for you.Because of the distance to be traveled, a proxy groom stood in for the queen's future husband.
+(especially of a conflict) occurring between states, people, etc., who are directed, influenced, or funded by other states, people, etc.: Proxy wars were a major feature of the Cold War.The new CEO won control of the company after a proxy battle.
+-----------------------------------------
+

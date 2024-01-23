@@ -1,0 +1,28 @@
+TimeStamp --> 2024-01-23T14:16:54.811250562
+Number of entries --> 23
+
+failure to act; inaction or neglect: They lost their best client by sheer default.
+Finance. failure to meet financial obligations, as when a borrower misses or stops making monthly loan payments: A default on your mortgage can lead to losing the house.
+Law. failure to perform an act or obligation legally required, especially to appear in court or to plead at a time assigned: The judge dismissed the suit for default of the defendant.
+Sports. failure to arrive in time for, participate in, or complete a scheduled game, race, etc.: So far the Cougars have had three losses, two wins, and one default.
+a person’s automatic or standard way of acting or responding; go-to or reflex:Her default is to argue about everything I say, unless she’s in a really good mood.
+lack; want; absence: For default of anything better, he took a job washing dishes.
+Computers. a value that a program or operating system assumes, or a course of action that a program or operating system will take, when the user or programmer specifies no overriding value or action.
+being a person’s automatic or standard action, response, etc.; go-to: Chocolate is my default choice for ice cream, but when I feel adventurous I’ll go for something more exotic.
+Computers. (of a value, action, etc.) preset or preselected, unless the user or programmer gives other input or instruction: The default contrast setting on this display is 50 percent.
+to fail to meet financial obligations, such as payments on a loan, or to account properly for money in one's care: After he defaulted twice, the bank foreclosed on the car.
+to fail in fulfilling or satisfying an engagement, claim, or obligation: They said they would pick me up, but defaulted at the last minute.
+Law. to fail to appear in court: One of the key witnesses defaulted.
+Sports.
+to fail to participate in or complete a scheduled game, race, etc.: I only placed in that race because my chief rival defaulted.
+to lose a scheduled game, race, etc., by default.
+to behave or respond in a certain way automatically, habitually, or by preference (usually followed by to): It seems that in your relationships you default to being a caregiver instead of a partner.
+Computers. (of a program or operating system) to assume a preset value or take a preselected action unless otherwise instructed by the user or programmer (usually followed by to): Your profile defaults to public unless you set the permissions to private.
+to fail to perform or pay: to default a debt.
+to declare to be in default, especially legally: The judge defaulted the defendant.
+Law. to lose by failure to appear in court.
+Sports.
+to fail to compete in (a scheduled game, race, etc.).
+to lose by default.
+-----------------------------------------
+

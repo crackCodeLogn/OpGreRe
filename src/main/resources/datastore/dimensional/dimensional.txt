@@ -1,0 +1,26 @@
+TimeStamp --> 2024-01-23T14:33:38.259434326
+Number of entries --> 21
+
+Mathematics.
+a property of space; extension in a given direction: A straight line has one dimension, a parallelogram has two dimensions, and a parallelepiped has three dimensions.
+the generalization of this property to spaces with curvilinear extension, as the surface of a sphere.
+the generalization of this property to vector spaces and to Hilbert space.
+the generalization of this property to fractals, which can have dimensions that are noninteger real numbers.
+extension in time: Space-time has three dimensions of space and one of time.
+Usually dimensions.
+measurement in length, width, and thickness.
+scope; importance: the dimensions of a problem.
+an aspect, feature, or angle: A study abroad experience can add a cultural dimension to your language learning.We haven't addressed that dimension of the issue.
+unit (def. 6).
+magnitude; size: Matter has dimension.
+Topology.
+a magnitude that, independently or in conjunction with other such magnitudes, serves to define the location of an element within a given set, as of a point on a line, an object in a space, or an event in space-time.
+the number of elements in a finite basis of a given vector space.
+Physics. any of a set of basic kinds of quantity, as mass, length, and time, in terms of which all other kinds of quantity can be expressed: usually denoted by capital letters, with appropriate exponents, placed in brackets:The dimensions of velocity are [LT−1].: Compare dimensional analysis.
+Also called al·ter·nate di·men·sion [awl-ter-nit di-men-shuhn, dahy-] /ˈɔl tər nɪt dɪˈmɛn ʃən, daɪ-/ . (in science fiction, fantasy, etc.) a hypothetical universe or world that is different from our known universe and reachable by traveling in directions that are not the perceptible axes of space and time, as with the use of futuristic technology or magic: Your enemies are villains, cultists, terrible monsters, and unfathomable entities from alternate dimensions or the cosmos beyond.: Compare parallel universe (def. 3).
+dimensions, Informal. the measurements of a woman's bust, waist, and hips, in that order: The dressmaker noted that the customer's dimensions were 38-24-36.
+dimension lumber.
+to shape or fashion to the desired dimensions: Dimension the shelves so that they fit securely into the cabinet.
+to indicate the dimensions of an item, area, etc., on (a sketch or drawing).
+-----------------------------------------
+

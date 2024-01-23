@@ -1,0 +1,59 @@
+TimeStamp --> 2024-01-23T14:17:15.935928123
+Number of entries --> 54
+
+the bottom support of anything; that on which a thing stands or rests: a metal base for the table.
+a fundamental principle or groundwork; foundation; basis: the base of needed reforms.
+the bottom layer or coating, as of makeup or paint.
+Architecture.
+the distinctively treated portion of a column or pier below the shaft or shafts.
+the distinctively treated lowermost portion of any construction, as a monument, exterior wall, etc.
+Botany, Zoology.
+the part of an organ nearest its point of attachment.
+the point of attachment.
+the principal element or ingredient of anything, considered as its fundamental part: face cream with a lanolin base;paint with a lead base.
+that from which a commencement, as of action or reckoning, is made; a starting point or point of departure.
+the main supporters or fans of a political candidate, celebrity, company, etc.: Her proposed policies are calculated to appeal to her base.
+Baseball.
+any of the four corners of the diamond, especially first, second, or third base.: Compare home plate.
+a square canvas sack containing sawdust or some other light material, for marking first, second, or third base.
+a starting line or point for runners, racing cars, etc.
+(in hockey and other games) the goal.
+Military.
+a fortified or more or less protected area or place from which the operations of an army or an air force proceed.
+a supply installation for a large military force.
+Geometry. the line or surface forming the part of a figure that is most nearly horizontal or on which it is supposed to stand.
+Mathematics.
+the number that serves as a starting point for a logarithmic or other numerical system.
+a collection of subsets of a topological space having the property that every open set in the given topology can be written as the union of sets of the collection.
+a collection of neighborhoods of a point such that every neighborhood of the point contains one from the collection.
+a collection of sets of a given filter such that every set in the filter is contained in some set in the collection.
+Also called base line. Surveying. See under triangulation (def. 1).
+Painting.
+vehicle (def. 10).
+Also called carrier . inert matter, used in the preparation of lakes, onto which a coloring compound is precipitated.
+Photography. a thin, flexible layer of cellulose triacetate or similar material that holds the light-sensitive film emulsion and other coatings, especially on motion-picture film.
+Chemistry.
+a compound that reacts with an acid to form a salt, as ammonia, calcium hydroxide, or certain nitrogen-containing organic compounds.
+the hydroxide of a metal or of an electropositive element or group.
+a group or molecule that takes up or accepts protons.
+a molecule or ion containing an atom with a free pair of electrons that can be donated to an acid; an electron-pair donor.
+any of the purine and pyrimidine compounds found in nucleic acids: the purines adenine and guanine and the pyrimidines cytosine, thymine, and uracil.
+Grammar. the part of a complex word, consisting of one or more morphemes, to which derivational or inflectional affixes may be added, as want in unwanted or biolog- in biological.: Compare root1 (def. 12), stem1 (def. 16).
+Linguistics. the component of a generative grammar containing the lexicon and phrase-structure rules that generate the deep structure of sentences.
+Electronics.
+an electrode or terminal on a transistor other than the emitter or collector electrodes or terminals.
+the part of an incandescent lamp or electron tube that includes the terminals for making electrical connection to a circuit or power supply.
+Stock Exchange. the level at which a security ceases a decline in price.
+Heraldry. the lower part of an escutcheon.
+bases, Armor. a tonlet formed of two shaped steel plates assembled side by side.
+Jewelry. pavilion (def. 6).
+in base, Heraldry. in the lower part of an escutcheon.
+serving as or forming a base: The walls will need a base coat and two finishing coats.
+to make or form a base or foundation for.
+to establish, as a fact or conclusion (usually followed by on or upon): He based his assumption of her guilt on the fact that she had no alibi.
+to place or establish on a base or basis; ground; found (usually followed by on or upon): Our plan is based on a rising economy.
+to station, place, or situate (usually followed by at or on): He is based at Fort Benning. The squadron is based on a carrier.
+to have a basis; be based (usually followed by on or upon): Fluctuating prices usually base on a fickle public's demand.
+to have or maintain a base: I believe they had based on Greenland at one time.
+-----------------------------------------
+

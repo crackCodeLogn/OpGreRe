@@ -1,0 +1,8 @@
+TimeStamp --> 2024-01-23T14:36:00.781797123
+Number of entries --> 3
+
+Medicine/Medical. general or local insensibility, as to pain and other sensation, induced by certain interventions or drugs to permit the performance of surgery or other painful procedures.
+Pathology. general loss of the senses of feeling, as pain, heat, cold, touch, and other less common varieties of sensation.
+Psychiatry. absence of sensation due to psychological processes, as in conversion disorders.
+-----------------------------------------
+

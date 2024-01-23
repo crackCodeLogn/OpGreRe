@@ -1,0 +1,9 @@
+TimeStamp --> 2024-01-23T14:13:21.308458184
+Number of entries --> 4
+
+to put together (documents, selections, or other materials) in one book or work.
+to make (a book, writing, or the like) of materials from various sources: to compile an anthology of plays; to compile a graph showing changes in profit.
+to gather together: to compile data.
+Computers. to translate (a computer program) from a high-level language into another language, usually machine language, using a compiler.
+-----------------------------------------
+

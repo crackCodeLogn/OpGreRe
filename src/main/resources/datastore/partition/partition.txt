@@ -1,0 +1,26 @@
+TimeStamp --> 2024-01-23T14:34:10.636862084
+Number of entries --> 21
+
+a division into or distribution in portions or shares: Upon the magnate's death, the family began the complicated partition of his possessions.
+a separation, as of two or more things: The Renaissance was marked by the partition of religion and philosophy.
+something that separates or divides: Is the partition between menswear and womenswear finally falling in the fashion industry?
+an interior wall or barrier dividing a room, area of a building, enclosure, etc., into separate areas: There was a sliding, floor-to-ceiling partition between the bedroom and the living area.
+a part, division, or section: One partition of the barn was filled with hay, and he burrowed into it to hide.
+a septum or dissepiment, as in a plant or animal structure.
+
+the division of a country or territory into separate, usually differing political entities: Movement of goods and labor was fairly free between the UK and Ireland after partition—until the Troubles.
+Usually Par·ti·tion . the division of a large part of the Indian subcontinent into India and Pakistan in 1947: A decade after Partition, many families were still choosing to migrate to Pakistan.
+Law. a division of property among joint owners or tenants in common or a sale of such property followed by a division of the proceeds.
+Computers. a section of storage space on a hard disk or device, devoted to a particular type of information and read and written to by the operating system or systems as if it were a separate disk or device: This suite of tools allows you to maximize disk space by creating, resizing, moving, merging, and splitting partitions without losing data.
+Logic. the act of analyzing a whole by breaking it down into its constituent parts.
+Mathematics.
+a mode of separating a positive whole number into a sum of positive whole numbers.
+the decomposition of a set into disjoint subsets whose union is the original set: A partition of the set (1, 2, 3, 4, 5) is the collection of subsets (1), (2, 3), (4), and (5).
+Rhetoric. (in a speech organized on classical principles) the second, usually brief section or part in which a speaker announces the chief lines of thought to be discussed in support of their theme.
+to divide into parts, sections, or portions: In Western culture, our lives tend to be partitioned into distinct domains, making it almost impossible to view life as a whole.
+to divide or separate by interior walls, barriers, or the like (sometimes followed by off): They partitioned off a dormitory into cubicles.
+to divide (a country or territory) into separate, usually differing political entities: The Geneva Accord partitioned Vietnam at the 17th parallel, with a Communist-led North and the Republic of Vietnam in the South.: Compare Balkanize (def. 1).
+Law. to divide property among several owners, either in specie or by sale and division of the proceeds.
+Computers. to divide (a hard disk or the data stored in it) into sections for different kinds of information, to be read and written to by the operating system or systems as if each section were a separate disk or device: I partitioned the drive, storing my media library separately from my operating system and games.
+-----------------------------------------
+

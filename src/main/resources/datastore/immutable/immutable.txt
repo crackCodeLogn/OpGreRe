@@ -1,0 +1,7 @@
+TimeStamp --> 2024-01-23T14:35:44.518242354
+Number of entries --> 2
+
+not mutable; unchangeable; changeless.
+Computers. (in object-oriented programming) of or noting an object with a fixed structure and properties whose values cannot be changed.
+-----------------------------------------
+

@@ -1,0 +1,12 @@
+TimeStamp --> 2024-01-23T14:29:13.174050108
+Number of entries --> 7
+
+Mathematics.
+a constant or variable term in a function that determines the specific form of the function but not its general nature, as a in f(x) = ax, where a determines only the slope of the line described by f(x).
+one of the independent variables in a set of parametric equations.
+Statistics. a variable entering into the mathematical form of any distribution such that the possible values of the variable correspond to different distributions.
+Computers. a variable that must be given a specific value during the execution of a program or of a procedure within a program.
+Usually parameters. limits or boundaries; guidelines: the basic parameters of our foreign policy.
+characteristic or factor; aspect; element: a useful parameter for judging long-term success.
+-----------------------------------------
+

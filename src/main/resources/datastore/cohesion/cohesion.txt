@@ -1,0 +1,9 @@
+TimeStamp --> 2024-01-23T14:29:51.929386528
+Number of entries --> 4
+
+the act or state of cohering, uniting, or sticking together.
+Physics. the molecular force between particles within a body or substance that acts to unite them.: Compare adhesion (def. 4).
+Botany. the congenital union of one part with another.
+Linguistics. the property of unity in a written text or a segment of spoken discourse that stems from links among its surface elements, as when words in one sentence are repeated in another, and especially from the fact that some words or phrases depend for their interpretation upon material in preceding or following text, as in the sequence Be assured of this. Most people do not want to fight. However, they will do so when provoked, where this refers to the two sentences that follow, they refers back to most people, do so substitutes for the preceding verb fight, and however relates the clause that follows to the preceding sentence.: Compare coherence (def. 5).
+-----------------------------------------
+

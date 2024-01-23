@@ -1,0 +1,13 @@
+TimeStamp --> 2024-01-23T14:17:39.113325262
+Number of entries --> 8
+
+Geography.
+the angular distance north or south from the equator of a point on the earth's surface, measured on the meridian of the point.
+a place or region as marked by this distance.
+freedom from narrow restrictions; freedom of action, opinion, etc.: He allowed his children a fair amount of latitude.
+Astronomy.
+celestial latitude.
+galactic latitude.
+Photography. the ability of an emulsion to record the brightness values of a subject in their true proportion to one another, expressed as the ratio of the amount of brightness in the darkest possible value to the amount of brightness in the brightest: a latitude of 1 to 128.
+-----------------------------------------
+

@@ -1,0 +1,25 @@
+TimeStamp --> 2024-01-23T14:34:35.123351968
+Number of entries --> 20
+
+to fail to maintain a desired pace or to keep up; fall or stay behind: After five minutes of hard running, some of them began to lag.
+to move or develop slowly, as toward a goal or objective, or in relation to an associated factor (often followed by behind): to lag behind in production.
+to delay or fail in reaching full development: The factory lags regularly in making its quota.
+to hang back; linger; delay: The old friends lagged because they wanted to talk some more.
+to decrease, wane, or flag gradually, as in intensity: Interest lagged as the meeting went on.
+(in video games) to experience a delay between player input or game signals and the in-game manifestation of that action, often due to high network latency: I’m lagging so hard that enemies are killing me before I can even attack them.
+Marbles. to throw one's shooting marble toward a line (lag line ) on the ground in order to decide on the order of play.
+Billiards, Pool. string (def. 33).
+to fail to keep up with: The industry still lags the national economy.
+Obsolete. to cause to lag.
+a lagging or falling behind; retardation.
+a person who lags behind, is the last to arrive, etc.
+an interval or lapse of time: There was a developmental lag in the diffusion of ideas.
+Digital Technology.
+Also called dis·play lag [dih-spley-lag] /dɪˈspleɪ ˌlæg/ . the delay between a signal input and its display on a screen, as a high-definition television screen or LCD, due to latency in digital data conversion.
+Also called in·put lag [in-poot lag] /ˈɪnˌpʊt ˌlæg/ . (in video games) a display lag between player input or game signals and the in-game manifestation of that action, due to differences in display refresh rate or controller input: To make a competitive speed run, your best display option for minimal lag is still a CRT.
+Also called net·work lag [net-wurk lag] /ˈnɛtˌwɜrk ˌlæg/ . (in video games) such a display lag due to high network latency: If you have an old computer or slow connection, lag makes multiplayer gameplay difficult.
+Mechanics. the amount of retardation of some motion.
+Electricity. the retardation of one alternating quantity, as current, with respect to another related alternating quantity, as voltage, often expressed in degrees.
+Marbles, Billiards, Pool. the act of lagging.
+-----------------------------------------
+

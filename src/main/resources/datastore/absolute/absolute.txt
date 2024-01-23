@@ -1,0 +1,31 @@
+TimeStamp --> 2024-01-23T14:26:31.446216818
+Number of entries --> 26
+
+free from imperfection; complete; perfect: absolute liberty.
+not mixed or adulterated; pure: absolute alcohol.
+complete; downright: an absolute lie;an absolute denial;They made absolute fools of themselves at the party last night.
+free from restriction or limitation; not limited in any way: absolute command;absolute freedom.
+unrestrained or unlimited by a constitution, counterbalancing group, etc., in the exercise of governmental power, especially when arbitrary or despotic: an absolute monarch.
+viewed independently; not comparative or relative; intrinsic: absolute knowledge.
+positive; certain: absolute in opinion;absolute evidence.
+Grammar.
+relatively independent syntactically: the construction It being Sunday in It being Sunday, the family went to church is an absolute construction.
+(of a usually transitive verb) used without an object, as the verb give in The charity asked him to give.
+(of an adjective) having its noun understood, not expressed, as rich in The rich get richer.
+characterizing the phonological form of a word or phrase occurring by itself, not influenced by surrounding forms, as not in is not (as opposed to isn't), or will in they will (as opposed to they'll).: Compare sandhi.
+Physics.
+independent of arbitrary standards or of particular properties of substances or systems: absolute humidity.
+pertaining to a system of units, as the centimeter-gram-second system, based on some primary units, especially units of length, mass, and time.
+pertaining to a measurement based on an absolute zero or unit: absolute temperature.
+Education. noting or pertaining to the scale of a grading system based on an individual's performance considered as representing their knowledge of a given subject regardless of the performance of others in a group: The math department grades on an absolute scale.: Compare curve (def. 10).
+Climatology. noting or pertaining to the highest or lowest value of a meteorological quantity recorded during a given, usually long, period of time: absolute maximum temperature.
+Mathematics. (of an inequality) indicating that the expression is true for all values of the variable, as x2 + 1 > 0 for all real numbers x;unconditional; : Compare conditional (def. 4).
+Computers. machine-specific and requiring no translation (opposed to symbolic): absolute coding;absolute address.
+something that is not dependent upon external conditions for existence or for its specific nature, size, etc. (opposed to relative).
+the absolute,
+something that is free from any restriction or condition.
+something that is independent of some or all relations.
+something that is perfect or complete.
+(in Hegelianism) the world process operating in accordance with the absolute idea.
+-----------------------------------------
+

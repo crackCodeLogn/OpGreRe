@@ -1,0 +1,17 @@
+TimeStamp --> 2024-01-23T14:28:28.244674098
+Number of entries --> 12
+
+a temporary structure for holding workers and materials during the construction, repair, or decoration of a building.
+an elevated platform on which a criminal is executed, usually by hanging.
+a raised platform or stage for shows or performances, the seating of spectators, etc.
+any raised framework or system of such frameworks.
+a suspended platform used by painters, window washers, and others for working on a tall structure, such as a skyscraper.
+Cell Biology, Genetics. any of various extracellular framelike components found naturally in genomic material and synthesized for tissue engineering.
+Metallurgy. any piling or fusion of materials in a blast furnace, obstructing the flow of gases and preventing the uniform descent of the charge.
+to furnish (a building or other structure) with a system of temporary platforms for supporting workers and materials during construction, repairs, cleaning, etc.: Our team will scaffold the building in order to provide access for restorative work and maintenance.
+to be the support or foundation for: All knowledge is scaffolded by its physical and social contexts.
+Education.
+to aid (learners or their learning) using a method in which support in the application of a new skill is gradually reduced until the individual learner can demonstrate it independently, after which the mastered skill becomes the basis for acquiring the next new skill in a similar way: Showing students how to do something can be an effective first step in scaffolding learning.The program scaffolds middle-school learners through the scientific inquiry process.
+to design (learning materials, curriculum, etc.) to suit this method of instruction: This paper explains the model used to scaffold lessons for English language learners.
+-----------------------------------------
+

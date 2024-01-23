@@ -1,0 +1,11 @@
+TimeStamp --> 2024-01-23T14:33:54.185924163
+Number of entries --> 6
+
+apart or detached from others; separate; distinct: six discrete parts.
+consisting of or characterized by distinct or individual parts; discontinuous.
+Mathematics.
+(of a topology or topological space) having the property that every subset is an open set.
+defined only for an isolated set of points: a discrete variable.
+using only arithmetic and algebra; not involving calculus: discrete methods.
+-----------------------------------------
+

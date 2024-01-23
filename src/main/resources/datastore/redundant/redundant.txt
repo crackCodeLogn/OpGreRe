@@ -1,0 +1,20 @@
+TimeStamp --> 2024-01-23T14:35:13.557923507
+Number of entries --> 15
+
+exceeding what is needed or useful; superfluous: You can shorten the article by omitting these redundant paragraphs.I decided that a sixth pair of dress shoes was redundant.
+characterized by unnecessary words or repetition; verbose: He writes in a redundant style.
+serving or added as a backup; extra: If the latch fails on this backwards-opening car hood, the wind will blow it down rather than up, so a redundant latch is not needed.
+having one or more extra or duplicate parts or features: The genetic code is redundant, meaning that more than one codon can map to the same amino acid.
+Chiefly British. (of a worker) laid off or unemployed: If the mine were to close, the result would be 183 redundant workers.
+Computers.
+(of code, or of a signal communicating a message) including or encoding more than the required information, so as to provide a fallback, a means of validating data, an accommodation for different platforms, etc.
+(of network or system components) providing an additional traffic path or storage place for data, so that if one fails, the other can take over or serve as backup.
+Engineering.
+(of a structural member or part) designed to withstand stresses greater than or different from those that can be calculated or predicted.
+(of a structure) having members or parts designed to withstand stresses that cannot be calculated or predicted.
+(of a complete truss) having additional members enabling it to withstand loads that are not centered.: Compare complete (def. 8), incomplete (def. 3).
+(of a device, circuit, etc.) having extra or duplicate parts that can serve as a backup in case other parts malfunction.
+Linguistics. including or encoding more information than is necessary for communication: for example, in my three sons, the plural ending "-s" on sons is redundant because three already indicates plurality.
+extremely lush or abundant: The jungle, with its exuberant, redundant vegetation, hides bizarre and exotic creatures.
+-----------------------------------------
+

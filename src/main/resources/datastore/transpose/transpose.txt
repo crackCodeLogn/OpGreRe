@@ -1,0 +1,13 @@
+TimeStamp --> 2024-01-23T14:32:18.809623302
+Number of entries --> 8
+
+to change the relative position, order, or sequence of; cause to change places; interchange: to transpose the third and fourth letters of a word.
+to transfer or transport.
+Algebra. to bring (a term) from one side of an equation to the other, with corresponding change of sign.
+Mathematics. (of a matrix) to interchange rows and columns.
+Music. to reproduce in a different key, by raising or lowering in pitch.
+to transform; transmute.
+to perform a piece of music in a key other than the one in which it is written: to transpose at sight.
+Mathematics. a matrix formed from a given matrix by transposing.
+-----------------------------------------
+
