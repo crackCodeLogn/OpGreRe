@@ -1,0 +1,9 @@
+word:
+  fetchUrl: "https://www.dictionary.com/browse/%s?s=t"
+  fetchUrlTimeout: 30
+  outFolder: "datastore"
+image:
+  fetchUrl: "https://www.shutterstock.com/search/%s?image_type=photo"
+  fetchUrlTimeout: 30
+  outFolder: "datastore"
+words: "words.txt"
