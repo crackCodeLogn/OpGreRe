@@ -1926,7 +1926,6 @@ forgo
 forlorn
 formality
 formidable
-foe/question
 forsake
 forswear
 forte
@@ -4933,4 +4932,4 @@ zeal
 zealot
 zephyr
 zest
-Number of words: 4910
+Number of words: 4909
