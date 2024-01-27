@@ -1,7 +1,7 @@
-package ui;
+package com.vv.personal.ui;
 
-import model.WordModel;
-import util.LoggingHelper;
+import com.vv.personal.model.WordModel;
+import com.vv.personal.util.LoggingHelper;
 
 import javax.swing.*;
 import java.awt.*;

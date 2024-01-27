@@ -1,6 +1,6 @@
-package data;
+package com.vv.personal.data;
 
-import config.Config;
+import com.vv.personal.config.Config;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.InputStream;

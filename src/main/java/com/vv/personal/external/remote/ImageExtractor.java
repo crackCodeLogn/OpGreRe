@@ -1,10 +1,10 @@
-package external.remote;
+package com.vv.personal.external.remote;
 
-import config.FetchConfig;
+import com.vv.personal.config.FetchConfig;
+import com.vv.personal.util.FileHelper;
+import com.vv.personal.util.LoggingHelper;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import util.FileHelper;
-import util.LoggingHelper;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

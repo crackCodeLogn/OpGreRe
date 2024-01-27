@@ -1,6 +1,6 @@
-package external.local;
+package com.vv.personal.external.local;
 
-import util.FileHelper;
+import com.vv.personal.util.FileHelper;
 
 import javax.swing.*;
 import java.util.List;

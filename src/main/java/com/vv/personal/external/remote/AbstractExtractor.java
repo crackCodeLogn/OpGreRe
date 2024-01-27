@@ -1,6 +1,6 @@
-package external.remote;
+package com.vv.personal.external.remote;
 
-import config.FetchConfig;
+import com.vv.personal.config.FetchConfig;
 import lombok.Getter;
 import lombok.Setter;
 

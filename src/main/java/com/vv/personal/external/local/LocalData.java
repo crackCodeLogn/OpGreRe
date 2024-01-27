@@ -1,4 +1,4 @@
-package external.local;
+package com.vv.personal.external.local;
 
 import javax.swing.*;
 import java.util.List;

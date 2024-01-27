@@ -1,4 +1,4 @@
-package config;
+package com.vv.personal.config;
 
 import lombok.Getter;
 import lombok.Setter;

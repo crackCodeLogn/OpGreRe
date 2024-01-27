@@ -1,4 +1,4 @@
-package model;
+package com.vv.personal.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

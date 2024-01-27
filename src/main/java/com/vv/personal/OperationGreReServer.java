@@ -1,13 +1,15 @@
-import config.Config;
-import data.ApplicationPropertyReader;
-import external.local.LocalData;
-import external.local.LocalDataImpl;
-import external.remote.ImageExtractor;
-import external.remote.WordMeaningExtractor;
-import model.WordModel;
-import ui.Gui;
-import util.FileHelper;
-import util.LoggingHelper;
+package com.vv.personal;
+
+import com.vv.personal.config.Config;
+import com.vv.personal.data.ApplicationPropertyReader;
+import com.vv.personal.external.local.LocalData;
+import com.vv.personal.external.local.LocalDataImpl;
+import com.vv.personal.external.remote.ImageExtractor;
+import com.vv.personal.external.remote.WordMeaningExtractor;
+import com.vv.personal.model.WordModel;
+import com.vv.personal.ui.Gui;
+import com.vv.personal.util.FileHelper;
+import com.vv.personal.util.LoggingHelper;
 
 import javax.swing.*;
 import java.awt.event.WindowAdapter;

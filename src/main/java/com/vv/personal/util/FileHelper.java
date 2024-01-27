@@ -1,4 +1,4 @@
-package util;
+package com.vv.personal.util;
 
 import javax.swing.*;
 import java.io.*;
