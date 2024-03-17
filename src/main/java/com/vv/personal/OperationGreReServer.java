@@ -52,6 +52,7 @@ public class OperationGreReServer {
                 extractImages(applicationProperties);
                 break;
             case ROUTE_PRACTICE_RANDOM:
+            default:
                 if (args.length != 2) {
                     System.out.println("Supply the number of words you want to do for practice as the second input parameter.");
                     System.exit(0);
@@ -96,6 +97,7 @@ public class OperationGreReServer {
         JFrame jFrame = new Gui(wordModelList, 0, markedWordsForLaterPractise);
         jFrame.setVisible(true);
         jFrame.setTitle(title);
+        jFrame.setLocation(300, 300);
         jFrame.setSize(UI_WIDTH, UI_HEIGHT);
         jFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         jFrame.addWindowListener(new WindowAdapter() {
