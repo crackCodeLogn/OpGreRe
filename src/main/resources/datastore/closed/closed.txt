@@ -1,0 +1,20 @@
+TimeStamp --> 2024-03-17T13:03:12.410643061
+Number of entries --> 15
+
+having or forming a boundary or barrier: He was blocked by a closed door.The house had a closed porch.
+brought to a close; concluded: It was a closed incident with no repercussions.
+not public; restricted; exclusive: a closed meeting;a closed bid at a private auction.
+not open to new ideas or arguments.
+self-contained; independent or self-sufficient: a closed, symbiotic relationship.
+Phonetics. (of a syllable) ending with a consonant or a consonant cluster, as has, hasp.: Compare open (def. 35b).
+Linguistics. (of a class of items) limited in membership and not readily expanded to include new items, as the class of inflectional affixes, articles, pronouns, or auxiliaries (opposed to open, def. 36).
+Hunting, Angling. restricted as to the kind of game that may be legally taken and as to where or when it may be taken: woods closed to deer hunters.
+Mathematics.
+(of a set in which a combining operation between members of the set is defined) such that performing the operation between members of the set produces a member of the set, as multiplication in the set of integers.
+(of an interval) containing both of its endpoints.
+(of a map from one topological space to another) having the property that the image of a closed set is a closed set.
+(of a curve) not having endpoints; enclosing an area.
+(of a surface) enclosing a volume.
+(of a function or operator) having as its graph a closed set.
+-----------------------------------------
+

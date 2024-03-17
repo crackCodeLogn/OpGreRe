@@ -1,0 +1,12 @@
+TimeStamp --> 2024-03-17T13:00:57.072974145
+Number of entries --> 7
+
+the correspondence in size, form, and arrangement of parts on opposite sides of a plane, line, or point; regularity of form or arrangement in terms of like, reciprocal, or corresponding parts.
+the proper or due proportion of the parts of a body or whole to one another with regard to size and form; excellence of proportion.
+beauty based on or characterized by such excellence of proportion.
+Mathematics.
+a geometrical or other regularity that is possessed by a mathematical object and is characterized by the operations that leave the object invariant: A circle has rotational symmetry and reflection symmetry.
+a rotation or translation of a plane figure that leaves the figure unchanged although its position may be altered.
+Physics. a property of a physical system that is unaffected by certain mathematical transformations as, for example, the work done by gravity on an object, which is not affected by any change in the position from which the potential energy of the object is measured.
+-----------------------------------------
+

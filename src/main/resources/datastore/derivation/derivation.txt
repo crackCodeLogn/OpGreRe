@@ -1,0 +1,18 @@
+TimeStamp --> 2024-03-17T13:05:01.880491034
+Number of entries --> 13
+
+the act or fact of deriving or of being derived.
+the process of deriving.
+the source from which something is derived; origin.
+something that is or has been derived; derivative.
+Mathematics.
+development of a theorem.
+differentiation (def. 2).
+Grammar.
+the process or device of adding affixes to or changing the shape of a base, thereby assigning the result to a form class that may undergo further inflection or participate in different syntactic constructions, as in forming service from serve, song from sing, and hardness from hard (contrasted with inflection).
+the systematic description of such processes in a given language.
+Linguistics.
+a set of forms, including the initial form, intermediate forms, and final form, showing the successive stages in the generation of a sentence as the rules of a generative grammar are applied to it.
+the process by which such a set of forms is derived.
+-----------------------------------------
+

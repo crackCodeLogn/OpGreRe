@@ -1,0 +1,24 @@
+TimeStamp --> 2024-03-17T13:06:39.258030750
+Number of entries --> 19
+
+a blush; rosy glow: a flush of embarrassment on his face.
+a rushing or overspreading flow, as of water.
+a sudden rise of emotion or excitement: a flush of anger.
+glowing freshness or vigor: the flush of youth.
+hot flush. hot flash.
+a cleansing preparation that acts by flushing: an oil flush for the car's engine.
+to redden; cause to blush or glow: Winter air flushed the children's cheeks.
+to flood or spray thoroughly with water, as for cleansing purposes: They flushed the wall with water and then scrubbed it down.
+to wash out (a sewer, toilet, etc.) by a sudden rush of water.
+Metallurgy.
+to remove slag from (a blast furnace).
+to spray (a coke oven) to cool the gases generated and wash away the ammonia and tars distilled.
+to animate or excite; inflame: flushed with success.
+Computers.
+to empty (a buffer, cache, hard drive, etc.) by deleting the data or transferring it to permanent storage: Before flushing the cache, please transfer important data to a permanent file.
+to delete (data) or transfer it to permanent storage: After a short period to allow for recovery in the case of accidental deletion, we fully flush the data for your security.
+to blush; redden.
+to flow with a rush; flow and spread suddenly.
+to operate by flushing; undergo flushing: The toilet won't flush.
+-----------------------------------------
+

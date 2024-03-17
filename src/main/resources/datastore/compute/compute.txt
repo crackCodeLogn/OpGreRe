@@ -1,0 +1,13 @@
+TimeStamp --> 2024-03-17T13:00:59.000542516
+Number of entries --> 8
+
+to determine by calculation; reckon; calculate: These early astronomers computed the period of Jupiter's revolution.
+to determine by using a computer or calculator.
+to reckon; calculate.
+to use a computer or calculator.
+Informal. to make sense; add up: His reasons for doing that just don't compute.
+computation: Outer space is vast beyond compute.
+the processing, memory, and storage resources required for a computer, network, or program to function: To meet today's business demands, you need a solid foundation of compute.
+relating to or comprising the processing, memory, and storage resources required for a computer or program to function: The system uses intelligent load balancing so as to maximally utilize the available compute power.
+-----------------------------------------
+

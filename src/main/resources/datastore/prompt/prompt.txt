@@ -1,0 +1,23 @@
+TimeStamp --> 2024-03-17T13:04:25.657844744
+Number of entries --> 18
+
+done, performed, delivered, etc., at once or without delay: I emailed them asking about my package and they gave a prompt reply.
+ready in action; quick to act as occasion demands: They were trained to be prompt and competent for any emergency.
+quick or alert: You're too prompt to take offense.
+punctual: She's never prompt in arriving for work, yet she's always the first to leave at the end of the day.
+to move or induce to action: What prompted you to say that?
+to occasion or incite; inspire: What prompted his resignation?
+to assist (a person speaking) by suggesting something to be said: It's obvious that this witness has been prompted into giving false testimony.
+Theater. to supply (an actor, singer, etc.) from offstage with a missed cue or forgotten line: I focused on prompting our Cyrano, who had become strangely disoriented.
+Computers. (of a computer system) to send a message or symbol to (a user) requesting information or instructions, usually by displaying the message or symbol on a screen: Once the home page has loaded, the computer will prompt you to log in to your account.
+Computers, Digital Technology. to request particular output from (a machine learning algorithm) by means of instructions, questions, examples, context, or other input.
+Theater. to supply forgotten lines, lyrics, or the like to an actor, singer, etc.: I've got a one-line walk-on in the first scene, but for the rest of the play, I'll be prompting.
+the act of prompting.
+something serving to suggest or remind: They send an email once a month, which is just the prompt I need to pay my bill on time.
+Commerce.
+a limit of time given for payment for merchandise purchased, the limit being stated on a note of reminder (prompt note ).
+the contract setting the time limit.
+Computers. a message or symbol from a computer system to a user, generally appearing on a display screen, requesting more information or indicating that the system is ready for user instructions: When the prompt appears, provide your access code.
+Computers, Digital Technology. a sequence of inputs, often containing instructions, questions, examples, or context, used to request particular output from a machine learning algorithm.
+-----------------------------------------
+

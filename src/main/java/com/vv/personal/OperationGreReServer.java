@@ -17,7 +17,6 @@ import java.awt.event.WindowEvent;
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.ZoneId;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -35,7 +34,7 @@ public class OperationGreReServer {
     private static final int UI_HEIGHT = 600;
 
     public static void main(String[] args) {
-        TimeZone.setDefault(TimeZone.getTimeZone(ZoneId.of("EST", ZoneId.SHORT_IDS))); //force setting
+        TimeZone.setDefault(TimeZone.getTimeZone("GMT-04:00")); //force setting
         ApplicationPropertyReader applicationProperties = new ApplicationPropertyReader(APPLICATION_PROPERTIES);
         if (args.length == 0) {
             System.out.println("Cannot start app as argument missing!");

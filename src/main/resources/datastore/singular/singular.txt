@@ -1,0 +1,20 @@
+TimeStamp --> 2024-03-17T13:10:53.776004341
+Number of entries --> 15
+
+extraordinary; remarkable; exceptional: a singular success.
+unusual or strange; odd; different: singular behavior.
+being the only one of its kind; distinctive; unique: a singular example.
+separate; individual.
+Grammar. noting or pertaining to a member of the category of number found in many languages that indicates that a word form has one referent or denotes one person, place, thing, or instance, as English boy and thing, which are singular nouns, or goes, a singular form of the verb go.: Compare dual (def. 4), plural (def. 4).
+Logic.
+of or relating to something individual, specific, or not general.
+(of a proposition) containing no quantifiers, as “Socrates was mortal.”
+Mathematics.
+of or relating to a linear transformation from a vector space to itself that is not one-to-one.
+of or relating to a matrix having a determinant equal to zero.
+Obsolete. private.
+Obsolete. single.
+the singular number.
+a form in the singular.
+-----------------------------------------
+

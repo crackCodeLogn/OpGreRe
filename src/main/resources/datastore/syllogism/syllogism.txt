@@ -1,0 +1,8 @@
+TimeStamp --> 2024-03-17T12:58:27.080429960
+Number of entries --> 3
+
+Logic. an argument the conclusion of which is supported by two premises, of which one (major premise ) contains the term (major term ) that is the predicate of the conclusion, and the other (minor premise ) contains the term (minor term ) that is the subject of the conclusion; common to both premises is a term (middle term ) that is excluded from the conclusion. A typical form is “All A is C; all B is A; therefore all B is C.”
+deductive reasoning.
+an extremely subtle, sophisticated, or deceptive argument.
+-----------------------------------------
+

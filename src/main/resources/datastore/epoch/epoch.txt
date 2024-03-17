@@ -1,0 +1,13 @@
+TimeStamp --> 2024-03-17T13:06:31.177393100
+Number of entries --> 8
+
+a particular period of time marked by distinctive features, events, etc.: The treaty ushered in an epoch of peace and good will.
+the beginning of a distinctive period in the history of anything: The splitting of the atom marked an epoch in scientific discovery.
+a point of time distinguished by a particular event or state of affairs; a memorable date: His coming of age was an epoch in his life.
+Geology. any of several divisions of a geologic period during which a geologic series is formed.: Compare age (def. 12).
+Astronomy.
+an arbitrarily fixed instant of time or date, usually the beginning of a century or half century, used as a reference in giving the elements of a planetary orbit or the like.
+the mean longitude of a planet as seen from the sun at such an instant or date.
+Physics. the displacement from zero at zero time of a body undergoing simple harmonic motion.
+-----------------------------------------
+

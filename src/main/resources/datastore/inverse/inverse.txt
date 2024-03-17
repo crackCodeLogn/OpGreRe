@@ -1,0 +1,18 @@
+TimeStamp --> 2024-03-17T13:01:05.783226934
+Number of entries --> 13
+
+reversed in position, order, direction, or tendency.
+Mathematics.
+(of a proportion) containing terms of which an increase in one results in a decrease in another. A term is said to be in inverse proportion to another term if it increases (or decreases) as the other decreases (or increases).
+of or relating to an inverse function.: Compare direct (def. 16).
+inverted; turned upside down.
+an inverted state or condition.
+something that is inverse; the direct opposite.
+Mathematics.
+an element of an algebraic system, as a group, corresponding to a given element such that its product or sum with the given element is the identity element.
+inverse function.
+a point related to a given point so that it is situated on the same radius, extended if necessary, of a given circle or sphere and so that the product of the distances of the two points from the center equals the square of the radius of the circle or sphere.
+the set of such inverses of the points of a given set, as the points on a curve.
+to invert.
+-----------------------------------------
+

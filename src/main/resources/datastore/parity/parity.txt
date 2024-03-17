@@ -1,0 +1,15 @@
+TimeStamp --> 2024-03-17T13:00:44.321405888
+Number of entries --> 10
+
+equality, as in amount, status, or character.
+equivalence; correspondence; similarity; analogy: She and her brother always seemed like day and night to me, but I'm starting to see a real parity of nature between them.
+Finance.
+equivalence in value in the currency of another country.
+equivalence in value at a fixed ratio between moneys of different metals.
+Physics.
+a property of a wave function, expressed as +1 or −1 and noting the relation of the given function to the function formed when each variable is replaced by its negative, +1 indicating that the functions are identical and −1 that the second function is the negative of the first.
+Also called intrinsic parity . a number +1 or −1 assigned to each kind of elementary particle in such a way that the product of the parities of the particles in a system of particles multiplied by the parity of the wave function describing the system is unchanged when particles are created or annihilated.
+a system of regulating prices of farm commodities, usually by government price supports, to provide farmers with the same purchasing power they had in a selected base period.
+Computers. the condition of the number of items in a set, particularly the number of bits per byte or word, being either even or odd: used as a means for detecting certain errors.
+-----------------------------------------
+

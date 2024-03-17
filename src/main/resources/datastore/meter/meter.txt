@@ -1,0 +1,6 @@
+TimeStamp --> 2024-03-17T13:05:59.047234250
+Number of entries --> 1
+
+the fundamental unit of length in the metric system, equivalent to 39.37 U.S. inches, originally intended to be, and being very nearly, equal to one ten-millionth of the distance from the equator to the pole measured on a meridian: defined from 1889 to 1960 as the distance between two lines on a platinum-iridium bar (the “International Prototype Meter”) preserved at the International Bureau of Weights and Measures near Paris; from 1960 to 1983 defined as 1,650,763.73 wavelengths of the orange-red radiation of krypton 86 under specified conditions; and now defined as 1/299,792,458 of the distance light travels in a vacuum in one second. Abbreviation: m
+-----------------------------------------
+

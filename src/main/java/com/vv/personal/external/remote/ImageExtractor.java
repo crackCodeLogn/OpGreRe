@@ -48,6 +48,7 @@ public class ImageExtractor extends AbstractExtractor {
         blackListWords.add("euphoriaric");
         blackListWords.add("encomiastic");
         blackListWords.add("impunity");
+        blackListWords.add("unassuaged");
     }
 
     public void extractAbsentImagesOnly() {

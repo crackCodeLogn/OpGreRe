@@ -1,0 +1,12 @@
+TimeStamp --> 2024-03-17T13:08:40.045590627
+Number of entries --> 7
+
+relating to, situated in, or constituting the periphery: peripheral resistance on the outskirts of the battle area.
+concerned with relatively minor, irrelevant, or superficial aspects of the subject in question.
+Anatomy. near the surface or outside of; external.
+Computers. relating to a device or unit that is separate from but connected to a computer, network host, etc.
+Computers.
+a device or unit that operates separately from the CPU but is connected to it, such as a mouse, printer, speakers, etc.
+a device or unit that is separate from a network’s host computer but in communication with it, such as a shared input terminal, printer, or backup drive.
+-----------------------------------------
+

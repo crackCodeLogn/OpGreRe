@@ -1,0 +1,13 @@
+TimeStamp --> 2024-03-17T12:58:31.557433562
+Number of entries --> 8
+
+any object made by human beings, especially with a view to subsequent use.
+a handmade object, as a tool, or the remains of one, as a shard of pottery, characteristic of an earlier time or cultural stage, especially such an object found at an archaeological excavation.
+any mass-produced, usually inexpensive object reflecting contemporary society or popular culture: artifacts of the pop rock generation.
+a substance or structure not naturally present in the matter being observed but formed by artificial means, as during preparation of a microscope slide.
+a spurious observation or result arising from preparatory or investigative procedures.
+any feature that is not naturally present but is a product of an extrinsic agent, method, or the like: statistical artifacts that make the inflation rate seem greater than it is.
+Digital Technology. a visible or audible anomaly introduced in the processing or transmission of digital data: Your computer might need a new graphics card if you see green pixels where you should not, or other graphics artifacts.Ghosting artifacts in an MRI are usually the result of patient movement during a scan.
+Digital Technology. to introduce a visible or audible anomaly in (an image or audio file) during the processing or transmission of digital data: Compression may artifact your recording with clicking or echoing sounds.The video appears to be heavily artifacted.
+-----------------------------------------
+

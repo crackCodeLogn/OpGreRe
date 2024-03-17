@@ -1,0 +1,8 @@
+TimeStamp --> 2024-03-17T13:08:52.867862784
+Number of entries --> 3
+
+a situation requiring a choice between equally undesirable alternatives.
+any difficult or perplexing situation or problem.
+Logic. a form of syllogism in which the major premise is formed of two or more hypothetical propositions and the minor premise is a disjunctive proposition, as “If A, then B; if C then D. Either A or C. Therefore, either B or D.”
+-----------------------------------------
+

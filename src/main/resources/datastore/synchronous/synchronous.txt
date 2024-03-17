@@ -1,0 +1,12 @@
+TimeStamp --> 2024-03-17T13:05:17.405406476
+Number of entries --> 7
+
+occurring at the same time; coinciding in time; contemporaneous; simultaneous: The longest running “Turkey Trot” 5K is being held as a synchronous race in more than a dozen cities this Thanksgiving morning, and all proceeds will benefit the food bank.
+(especially in education) occurring in real time, as with participants logged in at an appointed time for a live lecture or discussion: Lectures for this blended learning class are synchronous webinars and will not be recorded or posted for asynchronous access.Synchronous telemedicine connects patients for instantaneous interactions with a medical professional.
+going on at the same rate and exactly together; recurring together.
+Physics, Electricity. having the same frequency and zero phase difference.
+Digital Technology. relating to or being a computer operation that must complete before another event can begin: The synchronous operation requires the host CPU to block subsequent activities until the current process concludes.
+Computers, Telecommunications. of, relating to, or operating using fixed-time intervals coordinated by a clock, as in paired data transmission.
+Aerospace. geostationary.
+-----------------------------------------
+

@@ -1,0 +1,12 @@
+TimeStamp --> 2024-03-17T12:56:52.677439565
+Number of entries --> 7
+
+derived.
+not original; secondary.
+something that has been derived.
+Also called derived form .Grammar. a form that has undergone derivation from another, as atomic from atom.
+Chemistry. a substance or compound obtained from, or regarded as derived from, another substance or compound.
+Also called differential quotient; especially British, differential coefficient .Mathematics. the limit of the ratio of the increment of a function to the increment of a variable in it, as the latter tends to 0; the instantaneous change of one quantity with respect to another, as velocity, which is the instantaneous change of distance with respect to time.: Compare first derivative, second derivative.
+a financial contract whose value derives from the value of underlying stocks, bonds, currencies, commodities, etc.
+-----------------------------------------
+

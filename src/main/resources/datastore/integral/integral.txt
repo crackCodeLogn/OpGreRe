@@ -1,0 +1,16 @@
+TimeStamp --> 2024-03-17T13:02:23.240734782
+Number of entries --> 11
+
+of, relating to, or belonging as a part of the whole; constituent or component: integral parts.
+necessary to the completeness of the whole: This point is integral to his plan.
+consisting or composed of parts that together constitute a whole.
+entire; complete; whole: the integral works of a writer.
+Arithmetic. pertaining to or being an integer; not fractional.
+Mathematics. pertaining to or involving integrals.
+an integral whole.
+Mathematics.
+Also called Riemann integral. the numerical measure of the area bounded above by the graph of a given function, below by the x-axis, and on the sides by ordinates drawn at the endpoints of a specified interval; the limit, as the norm of partitions of the given interval approaches zero, of the sum of the products of the function evaluated at a point in each subinterval times the length of the subinterval.
+a primitive.
+any of several analogous quantities.: Compare improper integral, line integral, multiple integral, surface integral.
+-----------------------------------------
+

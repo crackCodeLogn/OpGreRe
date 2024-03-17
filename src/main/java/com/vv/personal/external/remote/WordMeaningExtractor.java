@@ -25,7 +25,7 @@ import java.util.stream.Collectors;
  */
 public class WordMeaningExtractor extends AbstractExtractor {
 
-    private static final int WORD_MEANING_DOWNLOAD_UPPER_LIMIT = 1101;
+    private static final int WORD_MEANING_DOWNLOAD_UPPER_LIMIT = 2500;
     private static final AtomicBoolean allowProcessing = new AtomicBoolean(true);
     private static final Set<String> blackListWords = new HashSet<>();
 
@@ -61,7 +61,7 @@ public class WordMeaningExtractor extends AbstractExtractor {
         int totalWordsToFetch = allWordsToFetch.size();
         LoggingHelper.info(String.format("Obtained request to extract %d word meanings", totalWordsToFetch));
 
-        LoggingHelper.info(String.format("%.2f%% COMPLETED until now. Left with request to extract %d images after removing already present images", ((totalFoldersPresent - allWordsToFetch.size()) / (totalFoldersPresent * 1.0) * 100), allWordsToFetch.size()));
+        LoggingHelper.info(String.format("%.2f%% COMPLETED until now. Left with request to extract %d meanings after removing already present meanings", ((totalFoldersPresent - allWordsToFetch.size()) / (totalFoldersPresent * 1.0) * 100), allWordsToFetch.size()));
         int cnt = 0;
         for (String wordMeaningToFetch : allWordsToFetch) {
             if (cnt > WORD_MEANING_DOWNLOAD_UPPER_LIMIT || !allowProcessing.get()) break; // to deal with api throttling

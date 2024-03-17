@@ -1,0 +1,10 @@
+TimeStamp --> 2024-03-17T13:04:16.717899579
+Number of entries --> 5
+
+the act of disjoining or the state of being disjoined: a disjunction between thought and action.
+Logic.
+Also called disjunctive, inclusive disjunction. a compound proposition that is true if and only if at least one of a number of alternatives is true.
+Also called exclusive disjunction. a compound proposition that is true if and only if one and only one of a number of alternatives is true.
+the relation among the components of such a proposition, usually expressed by OR or V.
+-----------------------------------------
+

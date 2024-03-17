@@ -1,0 +1,7 @@
+TimeStamp --> 2024-03-17T13:05:45.059848782
+Number of entries --> 2
+
+the curve described by a projectile, rocket, or the like in its flight.
+Geometry. a curve or surface that cuts all the curves or surfaces of a given system at a constant angle.
+-----------------------------------------
+

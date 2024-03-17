@@ -1,0 +1,10 @@
+TimeStamp --> 2024-03-17T13:04:16.472692904
+Number of entries --> 5
+
+having a surface that is curved or rounded outward.: Compare concave (def. 1).
+Mathematics.
+(of a polygon) having all interior angles less than or equal to 180°.
+(of a set) having the property that for each pair of points in the set the line joining the points is wholly contained in the set.
+a convex surface, part, or thing.
+-----------------------------------------
+

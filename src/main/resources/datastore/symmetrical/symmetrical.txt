@@ -1,0 +1,22 @@
+TimeStamp --> 2024-03-17T13:08:11.869639724
+Number of entries --> 17
+
+characterized by or exhibiting symmetry; well-proportioned, as a body or whole; regular in form or arrangement of corresponding parts.
+Geometry.
+noting two points in a plane such that the line segment joining the points is bisected by an axis: Points (1, 1) and (1, −1) are symmetrical with respect to the x-axis.
+noting a set consisting of pairs of points having this relation with respect to the same axis.
+noting two points in a plane such that the line segment joining the points is bisected by a point or center: The points (1, 1) and (−1, −1) are symmetrical with respect to (0, 0).
+noting a set consisting of pairs of points having this relation with respect to the same center.
+Usually symmetric .Mathematics.
+noting a square matrix that is equal to its transpose.
+noting a dyad or dyadic that is equal to its conjugate.
+noting a relation in which one element in relation to a second implies the second in relation to the first.
+Botany.
+divisible into two similar parts by more than one plane passing through the center; actinomorphic.
+(of a flower) having the same number of parts in each whorl.
+Chemistry.
+having a structure that exhibits a regular repeated pattern of the component parts.
+noting a benzene derivative in which three substitutions have occurred at alternate carbon atoms.
+affecting corresponding parts simultaneously, as certain diseases.
+-----------------------------------------
+

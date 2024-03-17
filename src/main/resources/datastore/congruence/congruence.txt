@@ -1,0 +1,8 @@
+TimeStamp --> 2024-03-17T13:00:27.982125710
+Number of entries --> 3
+
+the quality or state of agreeing or corresponding.
+Mathematics. a relation between two numbers indicating that the numbers give the same remainder when divided by some given number.: Compare residue (def. 4b).
+Geometry. the relationship that exists between two figures when one can be superimposed over the other and all their angles and sides coincide, as a mirror image: the congruence of trapezoids with identical measurements.
+-----------------------------------------
+

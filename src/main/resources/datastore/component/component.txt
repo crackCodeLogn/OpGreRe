@@ -1,0 +1,16 @@
+TimeStamp --> 2024-03-17T12:56:50.932774917
+Number of entries --> 11
+
+a constituent part; element; ingredient.
+a part of a mechanical or electrical system: They checked the pads, rotors, and other components of my car's brake system.
+Physics. the projection of a vector quantity, as force or velocity, along an axis.
+Physical Chemistry. one of the set of the minimum number of chemical constituents by which every phase of a given system can be described.
+Mathematics.
+a connected subset of a set, not contained in any other connected subset of the set.
+a coordinate of a vector.
+Linguistics.
+one of the major subdivisions of a generative grammar: base component;transformational component;semantic component;phonological component.: Compare level (def. 17).
+a feature determined by componential analysis.
+being or serving as an element (in something larger); composing; constituent: the component parts of a computer system.
+-----------------------------------------
+
