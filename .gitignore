@@ -1,3 +1,6 @@
+src/main/resources/accessLog.txt
+src/main/resources/markedWords.txt
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
