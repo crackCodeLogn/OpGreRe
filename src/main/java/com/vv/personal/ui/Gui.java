@@ -1,5 +1,6 @@
 package com.vv.personal.ui;
 
+import com.vv.personal.model.UiMode;
 import com.vv.personal.model.WordModel;
 import com.vv.personal.util.LoggingHelper;
 
@@ -19,7 +20,7 @@ import java.util.TreeSet;
 public class Gui extends JFrame implements ActionListener {
 
     private final List<WordModel> wordModelList;
-    private final int callerID; // 0: random practice, 1: access log, 2: marked words
+    private final UiMode uiMode;
     private final TreeSet<String> markedWordsForLaterPractise;
     JPanel panel1;
     JPanel panel2;
@@ -30,9 +31,9 @@ public class Gui extends JFrame implements ActionListener {
     JButton buttonChecked;
     String currentWordBeingLookedAt;
 
-    public Gui(List<WordModel> wordModelList, int launchMode, TreeSet<String> markedWordsForLaterPractise) {
+    public Gui(List<WordModel> wordModelList, UiMode uiMode, TreeSet<String> markedWordsForLaterPractise) {
         this.wordModelList = wordModelList;
-        this.callerID = launchMode;
+        this.uiMode = uiMode;
         this.markedWordsForLaterPractise = markedWordsForLaterPractise;
 
         int n = wordModelList.size();
@@ -71,12 +72,12 @@ public class Gui extends JFrame implements ActionListener {
         buttonChecked.setActionCommand("-1");
         p21.add(targetWordLabel);
         p21.add(Box.createHorizontalStrut(100));
-        if (callerID == 0) p21.add(buttonChecked);
+        if (this.uiMode != UiMode.MARKED) p21.add(buttonChecked); // allowing marking for random and accessed
 
         JPanel p22 = new JPanel();
         targetWordImageLabel = new JLabel();
         ImageIcon image = wordModelList.get(0).getImage();
-        if (callerID <= 2) targetWordImageLabel.setIcon(image);
+        targetWordImageLabel.setIcon(image);
         p22.add(targetWordImageLabel);
 
         JPanel p23 = new JPanel(new FlowLayout(FlowLayout.LEFT));
@@ -107,7 +108,7 @@ public class Gui extends JFrame implements ActionListener {
             targetWordLabel.setText(generateWordLabel(index + 1, wordModelList.get(index).getWord()));
 
             ImageIcon image = wordModelList.get(index).getImage();
-            if (callerID <= 2) targetWordImageLabel.setIcon(image);
+            targetWordImageLabel.setIcon(image);
 
             String wordMeaningText = generateWordMeaningText(wordModelList.get(index).getWordMeaning());
             targetWordMeaningText.setText(wordMeaningText);

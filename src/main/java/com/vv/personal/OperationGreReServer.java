@@ -6,6 +6,7 @@ import com.vv.personal.external.local.LocalData;
 import com.vv.personal.external.local.LocalDataImpl;
 import com.vv.personal.external.remote.ImageExtractor;
 import com.vv.personal.external.remote.WordMeaningExtractor;
+import com.vv.personal.model.UiMode;
 import com.vv.personal.model.WordModel;
 import com.vv.personal.ui.Gui;
 import com.vv.personal.util.FileHelper;
@@ -29,9 +30,9 @@ public class OperationGreReServer {
     private static final String APPLICATION_PROPERTIES = "app.yml";
     private static final String ROUTE_WORD_MEANING = "word-meaning";
     private static final String ROUTE_IMAGE_EXTRACTION = "image-extraction";
-    private static final String ROUTE_PRACTICE_RANDOM = "practice-random";
-    private static final String ROUTE_PRACTICE_ACCESSED = "practice-accessed";
-    private static final String ROUTE_PRACTICE_MARKED = "practice-marked";
+    private static final String ROUTE_PRACTICE_RANDOM = "random";
+    private static final String ROUTE_PRACTICE_ACCESSED = "accessed";
+    private static final String ROUTE_PRACTICE_MARKED = "marked";
     private static final int UI_WIDTH = 1150;
     private static final int UI_HEIGHT = 600;
 
@@ -84,26 +85,27 @@ public class OperationGreReServer {
         Arrays.stream(files).forEach(file -> allWordsToFetch.add(file.getName()));
 
         allWordsToFetch.removeAll(accessedWords);
-        launch("RANDOM", allWordsToFetch, wordsForPractice, localData, true);
+        launch(UiMode.RANDOM, allWordsToFetch, wordsForPractice, localData, true);
     }
 
     private void performAccessedPractice(int wordsForPractice, LocalData localData) {
         List<String> accessedWords = localData.readAccessLogData();
         if (accessedWords.isEmpty()) shutdown("Cannot launch as no accessed words yet!");
 
-        launch("ACCESSED", new ArrayList<>(accessedWords), wordsForPractice, localData, false);
+        launch(UiMode.ACCESSED, new ArrayList<>(accessedWords), wordsForPractice, localData, false);
     }
 
     private void performMarkedPractice(int wordsForPractice, LocalData localData) {
         List<String> markedWords = localData.readMarkedWords();
         if (markedWords.isEmpty()) shutdown("Cannot launch as no marked words yet!");
 
-        launch("MARKED", new ArrayList<>(markedWords), wordsForPractice, localData, false);
+        launch(UiMode.MARKED, new ArrayList<>(markedWords), wordsForPractice, localData, false);
     }
 
-    private void launch(String title, List<String> allWordsToFetch, int wordsForPractice, LocalData localData, boolean updateAccessLog) {
+    private void launch(UiMode title, List<String> allWordsToFetch, int wordsForPractice, LocalData localData, boolean updateAccessLog) {
         Collections.shuffle(allWordsToFetch);
-        List<String> allWords = allWordsToFetch.subList(0, wordsForPractice);
+        int actualWordsForPractise = Math.min(wordsForPractice, allWordsToFetch.size());
+        List<String> allWords = allWordsToFetch.subList(0, actualWordsForPractise);
         List<WordModel> wordModels = allWords.stream()
                 .map(word -> {
                     List<String> wordMeaning = localData.readWordMeaning(word);
@@ -113,13 +115,13 @@ public class OperationGreReServer {
 
         //transfer to UI this list
         wordModels.forEach(wordModel -> LoggingHelper.info(wordModel.toString()));
-        manageUi(wordModels, String.format("GRE PRACTISE WORDS :: %s - %d", title, wordsForPractice), localData, updateAccessLog);
+        manageUi(wordModels, title, String.format("GRE PRACTISE WORDS :: %s - %d", title.getValue(), actualWordsForPractise), localData, updateAccessLog);
     }
 
-    private void manageUi(List<WordModel> wordModelList, String title, LocalData localData, boolean updateAccessLog) {
+    private void manageUi(List<WordModel> wordModelList, UiMode mode, String title, LocalData localData, boolean updateAccessLog) {
         TreeSet<String> markedWordsForLaterPractise = new TreeSet<>();
 
-        JFrame jFrame = new Gui(wordModelList, 0, markedWordsForLaterPractise);
+        JFrame jFrame = new Gui(wordModelList, mode, markedWordsForLaterPractise);
         jFrame.setVisible(true);
         jFrame.setTitle(title);
         jFrame.setLocation(300, 300);
@@ -128,23 +130,25 @@ public class OperationGreReServer {
         jFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                LoggingHelper.info(String.format("Final marked List: %s", markedWordsForLaterPractise));
-                //this is called when the window i.e. jframe is given the command to close...
-                //this is the implementation for the writing of the marked words onto the markedWords txt file.. these words are those words which have been difficult to remember at first, so as to store them for later purpose, and revise 'em specifically..
+                if (mode != UiMode.MARKED) {
+                    LoggingHelper.info(String.format("Final marked List: %s", markedWordsForLaterPractise));
+                    //this is called when the window i.e. jframe is given the command to close...
+                    //this is the implementation for the writing of the marked words onto the markedWords txt file.. these words are those words which have been difficult to remember at first, so as to store them for later purpose, and revise 'em specifically..
 
-                List<String> wordsAccessed = wordModelList.stream().map(WordModel::getWord).collect(Collectors.toList());
-                if (updateAccessLog) {
-                    localData.saveAccessLogData(wordsAccessed);
-                    LoggingHelper.info(String.format("Saved access log data of %d records", wordsAccessed.size()));
-                }
+                    List<String> wordsAccessed = wordModelList.stream().map(WordModel::getWord).collect(Collectors.toList());
+                    if (updateAccessLog) {
+                        localData.saveAccessLogData(wordsAccessed);
+                        LoggingHelper.info(String.format("Saved access log data of %d records", wordsAccessed.size()));
+                    }
 
-                if (!markedWordsForLaterPractise.isEmpty()) {
-                    List<String> markedWords = wordModelList.stream()
-                            .map(WordModel::getWord)
-                            .filter(markedWordsForLaterPractise::contains)
-                            .collect(Collectors.toList());
-                    localData.saveMarkedWords(markedWords);
-                    LoggingHelper.info(String.format("Saved marked words of %d records", markedWords.size()));
+                    if (!markedWordsForLaterPractise.isEmpty()) {
+                        List<String> markedWords = wordModelList.stream()
+                                .map(WordModel::getWord)
+                                .filter(markedWordsForLaterPractise::contains)
+                                .collect(Collectors.toList());
+                        localData.saveMarkedWords(markedWords);
+                        LoggingHelper.info(String.format("Saved marked words of %d records", markedWords.size()));
+                    }
                 }
                 shutdown("Bye");
             }
