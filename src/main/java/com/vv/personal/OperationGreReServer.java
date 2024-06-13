@@ -1,5 +1,6 @@
 package com.vv.personal;
 
+import com.google.common.collect.ImmutableMap;
 import com.vv.personal.config.Config;
 import com.vv.personal.data.ApplicationPropertyReader;
 import com.vv.personal.external.local.LocalData;
@@ -11,11 +12,12 @@ import com.vv.personal.model.WordModel;
 import com.vv.personal.ui.Gui;
 import com.vv.personal.util.FileHelper;
 import com.vv.personal.util.LoggingHelper;
+import org.apache.commons.lang3.tuple.Pair;
 
 import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.File;
+import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
@@ -35,19 +37,46 @@ public class OperationGreReServer {
     private static final String ROUTE_PRACTICE_MARKED = "marked";
     private static final int UI_WIDTH = 1150;
     private static final int UI_HEIGHT = 600;
+    private static final ImmutableMap<Character, String> ROUTER_MAP = ImmutableMap.<Character, String>builder()
+            .put('w', ROUTE_WORD_MEANING)
+            .put('i', ROUTE_IMAGE_EXTRACTION)
+            .put('r', ROUTE_WORD_MEANING)
+            .put('a', ROUTE_PRACTICE_ACCESSED)
+            .put('m', ROUTE_PRACTICE_MARKED)
+            .build();
 
     public static void main(String[] args) {
         TimeZone.setDefault(TimeZone.getTimeZone("GMT-04:00")); //force setting
         ApplicationPropertyReader applicationProperties = new ApplicationPropertyReader(APPLICATION_PROPERTIES);
         OperationGreReServer operationGreReServer = new OperationGreReServer();
-        if (args.length == 0) operationGreReServer.shutdown("Cannot start app as argument missing!");
 
-        operationGreReServer.routeAndFire(args, applicationProperties);
+        Pair<String, Integer> routingParameters = operationGreReServer.readInput();
+        operationGreReServer.routeAndFire(routingParameters, applicationProperties);
     }
 
-    private void routeAndFire(String[] args, ApplicationPropertyReader applicationProperties) {
+    private Pair<String, Integer> readInput() {
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
+            System.out.print("Enter launch mode: "); // r 11, a 11, m 11, w, i
+            String line = bufferedReader.readLine().strip();
+            if (line.isEmpty()) shutdown("Cannot launch on empty input!");
+
+            char mode = line.charAt(0);
+            if (!ROUTER_MAP.containsKey(mode)) shutdown("Invalid input mode.");
+
+            int count = 0;
+            if (line.length() > 2) count = Integer.parseInt(line.substring(2));
+            return Pair.of(ROUTER_MAP.get(mode), count);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (IndexOutOfBoundsException e) {
+            shutdown("Invalid parameters");
+        }
+        return null;
+    }
+
+    private void routeAndFire(Pair<String, Integer> args, ApplicationPropertyReader applicationProperties) {
         LocalData localData = new LocalDataImpl();
-        switch (args[0]) {
+        switch (args.getKey()) {
             case ROUTE_WORD_MEANING:
                 extractWordMeaning(applicationProperties);
                 break;
@@ -55,17 +84,14 @@ public class OperationGreReServer {
                 extractImages(applicationProperties);
                 break;
             case ROUTE_PRACTICE_ACCESSED:
-                validate(args.length);
-                performAccessedPractice(Integer.parseInt(args[1]), localData);
+                performAccessedPractice(args.getValue(), localData);
                 break;
             case ROUTE_PRACTICE_MARKED:
-                validate(args.length);
-                performMarkedPractice(Integer.parseInt(args[1]), localData);
+                performMarkedPractice(args.getValue(), localData);
                 break;
             case ROUTE_PRACTICE_RANDOM:
             default:
-                validate(args.length);
-                performRandomPractice(applicationProperties, Integer.parseInt(args[1]), localData);
+                performRandomPractice(applicationProperties, args.getValue(), localData);
                 break;
         }
     }
