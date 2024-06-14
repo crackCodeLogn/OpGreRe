@@ -20,17 +20,18 @@ ramp up everything to good standards of code
 - **RANDOM**: Get Random words from un-accessed list of words
 - **ACCESSED**: Get words from the accessed list of words
 - **MARKED**: Get Marked words from marked list of words
-    * This mode will **NOT** have the ability to mark words for practise. That feature (button) is only active for the
-      other modes
+    * The button for checking and unchecking behaves the reverse in this mode
+    * In this mode, checking a word will remove it from the overall marked word list
 
 ### Usage
 
-- In the Intellij Configuration, supply 2 program args:
-    * arg1:
-        * 'random' for RANDOM mode
-        * 'accessed' for ACCESSED mode
-        * 'marked' for MARKED mode
+- In the console line, enter 2 args:
+    * arg1 (mandatory):
+        * 'r' for RANDOM mode
+        * 'a' for ACCESSED mode
+        * 'm' for MARKED mode
     * arg2:
         * The number of words to practise for this launch
+            * If not supplied, defaults to Integer.MAX_VALUE
 - Example program argument:
-    * random 11 => starts the program in random mode, with 11 words
+    * r 11 => starts the program in random mode, with 11 words
