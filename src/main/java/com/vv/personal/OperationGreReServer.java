@@ -41,7 +41,7 @@ public class OperationGreReServer {
     private static final ImmutableMap<Character, String> ROUTER_MAP = ImmutableMap.<Character, String>builder()
             .put('w', ROUTE_WORD_MEANING)
             .put('i', ROUTE_IMAGE_EXTRACTION)
-            .put('r', ROUTE_WORD_MEANING)
+            .put('r', ROUTE_PRACTICE_RANDOM)
             .put('a', ROUTE_PRACTICE_ACCESSED)
             .put('m', ROUTE_PRACTICE_MARKED)
             .build();
