@@ -17,7 +17,10 @@ import org.apache.commons.lang3.tuple.Pair;
 import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
@@ -122,7 +125,7 @@ public class OperationGreReServer {
     }
 
     private void performMarkedPractice(int wordsForPractice, LocalData localData) {
-        List<String> markedWords = localData.readMarkedWords();
+        List<String> markedWords = new HashSet<>(localData.readMarkedWords()).stream().toList();
         if (markedWords.isEmpty()) shutdown("Cannot launch as no marked words yet!");
 
         launch(UiMode.MARKED, new ArrayList<>(markedWords), wordsForPractice, localData, false);
