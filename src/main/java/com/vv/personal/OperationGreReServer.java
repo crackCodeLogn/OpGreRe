@@ -66,6 +66,7 @@ public class OperationGreReServer {
 
             // show all entries if no param value supplied
             int count = line.length() > 2 ? Integer.parseInt(line.substring(2)) : Integer.MAX_VALUE;
+            if (mode == 'r' && count == Integer.MAX_VALUE) count = 25;
             return Pair.of(ROUTER_MAP.get(mode), count);
         } catch (IOException e) {
             e.printStackTrace();
