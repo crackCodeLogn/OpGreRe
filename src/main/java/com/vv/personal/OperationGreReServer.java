@@ -38,8 +38,6 @@ public class OperationGreReServer {
     private static final String ROUTE_PRACTICE_RANDOM = "random";
     private static final String ROUTE_PRACTICE_ACCESSED = "accessed";
     private static final String ROUTE_PRACTICE_MARKED = "marked";
-    private static final int UI_WIDTH = 1150;
-    private static final int UI_HEIGHT = 600;
     private static final ImmutableMap<Character, String> ROUTER_MAP = ImmutableMap.<Character, String>builder()
             .put('w', ROUTE_WORD_MEANING)
             .put('i', ROUTE_IMAGE_EXTRACTION)
@@ -66,8 +64,8 @@ public class OperationGreReServer {
             char mode = line.charAt(0);
             if (!ROUTER_MAP.containsKey(mode)) shutdown("Invalid input mode.");
 
-            int count = 0;
-            if (line.length() > 2) count = Integer.parseInt(line.substring(2));
+            // show all entries if no param value supplied
+            int count = line.length() > 2 ? Integer.parseInt(line.substring(2)) : Integer.MAX_VALUE;
             return Pair.of(ROUTER_MAP.get(mode), count);
         } catch (IOException e) {
             e.printStackTrace();
@@ -152,9 +150,11 @@ public class OperationGreReServer {
 
         JFrame jFrame = new Gui(wordModelList, mode, markedWordsForLaterPractise);
         jFrame.setVisible(true);
+        jFrame.toFront();
+        jFrame.requestFocus();
+        jFrame.setAutoRequestFocus(true);
         jFrame.setTitle(title);
-        jFrame.setLocation(300, 300);
-        jFrame.setSize(UI_WIDTH, UI_HEIGHT);
+        jFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         jFrame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         jFrame.addWindowListener(new WindowAdapter() {
             @Override
