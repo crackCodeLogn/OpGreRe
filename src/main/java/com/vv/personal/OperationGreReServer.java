@@ -159,7 +159,7 @@ public class OperationGreReServer {
         jFrame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
-                if (mode != UiMode.MARKED) {
+                if (mode != UiMode.MARKED) { // Access and Random mode
                     LoggingHelper.info(String.format("Final marked List: %s", markedWordsForLaterPractise));
                     //this is called when the window i.e. jframe is given the command to close...
                     //this is the implementation for the writing of the marked words onto the markedWords txt file.. these words are those words which have been difficult to remember at first, so as to store them for later purpose, and revise 'em specifically..
@@ -177,6 +177,17 @@ public class OperationGreReServer {
                                 .collect(Collectors.toList());
                         localData.saveMarkedWords(markedWords);
                         LoggingHelper.info(String.format("Saved marked words of %d records", markedWords.size()));
+                    }
+                } else { // in marked words mode
+                    if (!markedWordsForLaterPractise.isEmpty()) {
+                        List<String> allMarkedWords = localData.readMarkedWords();
+                        LoggingHelper.info(String.format("Initial complete marked List: %s", allMarkedWords));
+                        LoggingHelper.info(String.format("Unmarked List: %s", markedWordsForLaterPractise));
+                        List<String> updateMarkedWords = allMarkedWords.stream()
+                                .filter(word -> !markedWordsForLaterPractise.contains(word))
+                                .collect(Collectors.toList());
+                        LoggingHelper.info(String.format("Final complete marked List: %s", updateMarkedWords));
+                        FileHelper.dumpFile(localData.getMarkedWordsFilePath(), updateMarkedWords);
                     }
                 }
                 shutdown("Bye");

@@ -18,29 +18,28 @@ import java.util.TreeSet;
  * revived on 2024-01-23
  */
 public class Gui extends JFrame implements ActionListener {
+    private static final String UNCHECKED = "UNCHECKED";
+    private static final String CHECKED = "CHECKED";
+    private static final String ACTION_COMMAND_CHECKED = "-1";
+    private static final String ACTION_COMMAND_UNCHECKED = "-2";
 
     private final List<WordModel> wordModelList;
-    private final UiMode uiMode;
     private final TreeSet<String> markedWordsForLaterPractise;
-    JPanel panel1;
-    JPanel panel2;
-    JLabel targetWordLabel;
-    JLabel targetWordImageLabel;
-    JTextArea targetWordMeaningText;
-    JButton[] buttonList;
-    JButton buttonChecked;
-    String currentWordBeingLookedAt;
+    private final JLabel targetWordLabel;
+    private final JLabel targetWordImageLabel;
+    private final JTextArea targetWordMeaningText;
+    private final JButton buttonChecked;
+    private String currentWordBeingLookedAt;
 
     public Gui(List<WordModel> wordModelList, UiMode uiMode, TreeSet<String> markedWordsForLaterPractise) {
         this.wordModelList = wordModelList;
-        this.uiMode = uiMode;
         this.markedWordsForLaterPractise = markedWordsForLaterPractise;
 
         int n = wordModelList.size();
-        buttonList = new JButton[n];
+        JButton[] buttonList = new JButton[n];
 
         setLayout(new BorderLayout());
-        panel1 = new JPanel(new GridLayout(n, 1));
+        JPanel panel1 = new JPanel(new GridLayout(n, 1));
 
         JSplitPane jSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
         jSplitPane.setResizeWeight(.3);
@@ -59,7 +58,7 @@ public class Gui extends JFrame implements ActionListener {
             panel1.add(buttonList[i]);
         }
 
-        panel2 = new JPanel(new GridLayout(3, 1));
+        JPanel panel2 = new JPanel(new GridLayout(3, 1));
 
         JPanel p21 = new JPanel();
         String firstWord = wordModelList.get(0).getWord();
@@ -67,12 +66,12 @@ public class Gui extends JFrame implements ActionListener {
         currentWordBeingLookedAt = firstWord;
         targetWordLabel.setFont(targetWordLabel.getFont().deriveFont(36f));
 
-        buttonChecked = new JButton("UNCHECKED");
+        buttonChecked = new JButton(UNCHECKED);
         buttonChecked.addActionListener(this);
         buttonChecked.setActionCommand("-1");
         p21.add(targetWordLabel);
         p21.add(Box.createHorizontalStrut(100));
-        if (this.uiMode != UiMode.MARKED) p21.add(buttonChecked); // allowing marking for random and accessed
+        p21.add(buttonChecked); // allowing marking in all modes
 
         JPanel p22 = new JPanel();
         targetWordImageLabel = new JLabel();
@@ -104,7 +103,7 @@ public class Gui extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         int index = Integer.parseInt(e.getActionCommand());
-        if (index >= 0) {
+        if (index >= 0) { // clicked on the left row of words
             targetWordLabel.setText(generateWordLabel(index + 1, wordModelList.get(index).getWord()));
 
             ImageIcon image = wordModelList.get(index).getImage();
@@ -116,22 +115,22 @@ public class Gui extends JFrame implements ActionListener {
             currentWordBeingLookedAt = wordModelList.get(index).getWord();
 
             if (!markedWordsForLaterPractise.contains(currentWordBeingLookedAt)) {
-                buttonChecked.setText("UNCHECKED!");
-                buttonChecked.setActionCommand("-1");
+                buttonChecked.setText(UNCHECKED);
+                buttonChecked.setActionCommand(ACTION_COMMAND_CHECKED);
             } else {
-                buttonChecked.setActionCommand("-2");
-                buttonChecked.setText("CHECKED!!");
+                buttonChecked.setActionCommand(ACTION_COMMAND_UNCHECKED);
+                buttonChecked.setText(CHECKED);
             }
-        } else if (index == -1) {
+        } else if (index == -1) { // word marked
             markedWordsForLaterPractise.add(currentWordBeingLookedAt);
-            buttonChecked.setActionCommand("-2");
-            buttonChecked.setText("CHECKED!!");
+            buttonChecked.setActionCommand(ACTION_COMMAND_UNCHECKED);
+            buttonChecked.setText(CHECKED);
 
             LoggingHelper.info(String.format("%d, current word list: %s", markedWordsForLaterPractise.size(), markedWordsForLaterPractise));
-        } else if (index == -2) {
+        } else if (index == -2) { // word unmarked
             markedWordsForLaterPractise.remove(currentWordBeingLookedAt);
-            buttonChecked.setActionCommand("-1");
-            buttonChecked.setText("UNCHECKED!");
+            buttonChecked.setActionCommand(ACTION_COMMAND_CHECKED);
+            buttonChecked.setText(UNCHECKED);
 
             LoggingHelper.info(String.format("%d, current word list: %s", markedWordsForLaterPractise.size(), markedWordsForLaterPractise));
         }

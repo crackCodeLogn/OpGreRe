@@ -22,4 +22,6 @@ public interface LocalData {
     void saveMarkedWords(List<String> words);
 
     ImageIcon readImageForWord(String word);
+
+    String getMarkedWordsFilePath();
 }

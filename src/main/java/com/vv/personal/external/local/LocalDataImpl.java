@@ -49,4 +49,9 @@ public class LocalDataImpl implements LocalData {
     public List<String> readWordMeaning(String word) {
         return FileHelper.readWordsFromFile(String.format("datastore/%s/%s.txt", word, word), "--");
     }
+
+    @Override
+    public String getMarkedWordsFilePath() {
+        return MARKED_WORDS_LOG;
+    }
 }
